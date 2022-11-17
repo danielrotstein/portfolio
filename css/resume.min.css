@@ -6,7 +6,9 @@
     font-family: "Roboto",serif;
     font-size: large;
     padding-top: 54px;
-    color: #868e96}
+    color: #868e96;
+}
+
  
  @media (min-width: 992px) {
     body{
@@ -125,12 +127,9 @@ section.resume-section .resume-item .resume-date {
     color: #65683f !important
 }
 a {
-    color: #65683f
+    color: #343a40
 }
 a:active,a:focus,a:hover {
     color: #65683f
-}
-.resume {
-    color: rgb(228, 35, 35);
 }
 
