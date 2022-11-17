@@ -48,7 +48,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Menu</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/daniel-square.jpg" alt="">
         </span>
@@ -95,8 +95,7 @@
           </div>
           <p class="mb-5">After years of traveling the world and learning to speak multiple languages, I now look forward to applying my unique background and skills towards technical languages. It's my goal to continue evolving as a software engineer with a global perspective.</p>
           <ul class="list-inline list-social-icons mb-0">
-            
-            
+        
             <li class="list-inline-item">
               <a href="https://www.linkedin.com/in/danielrotstein/" target="_blank">
                 <span class="fa-stack fa-lg">
@@ -105,7 +104,6 @@
                 </span>
               </a>
             </li>
-
             <li class="list-inline-item">
               <a href="https://gitlab.com/daniel-rotstein" target="_blank">
                 <span class="fa-stack fa-lg">
@@ -114,7 +112,6 @@
                 </span>
               </a>
             </li>
-
             <li class="list-inline-item">
               <a href="https://github.com/danielrotstein" target="_blank">
                 <span class="fa-stack fa-lg">
@@ -191,7 +188,7 @@
 
 
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+      <section class="resume-section p-3 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
 
@@ -200,13 +197,16 @@
               <h3><a href="https://gitlab.com/daniel-rotstein/ExpenseBook" target="_blank" class="mb-0">ExpenseBook</h3></a>
               <div class="subheading mb-3">Full Stack Web Application
               </div>
-              <p>ExpenseBook was created to help travelers plan for and manage their budgets on the fly, while traveling. Specially designed for international travels with hundreds of currencies available.
+              <!-- <p>ExpenseBook was created to help travelers plan for and manage their budgets on the fly, while traveling. Specially designed for international travels with hundreds of currencies available.
                 </br>
                 Currency conversion - automatically converting your spend from a foreign currency to your home currency while updating your total spend and balance. 
                 Easy categorization of expenses to assist in managing spend. 
                 Ability to create multiple budgets per account for multiple legs of trips and budgets.
-              </br>
-              Developed using Javascript, React, Redux, FastApi, Bootstrap, PostgreSQL and 3rd party API's.
+              </p> -->
+              <p>A full stack travel budgeting application, designed for high performance and a user friendly experience via FastAPI and React, to help travelers plan for and manage their budgets on the fly, while traveling. Specially designed for international travels with hundreds of currencies available.
+              A currency converter using React Hooks to calculate any currency fetched via a 3rd party API.
+              Ability to create multiple budgets per account for multiple legs of trips and budgets.
+              Using tokens to authenticate user accounts improving personalization, privacy,security.           
               </p>
               <ul class="list-inline list-icons">
                 <li class="list-inline-item">
@@ -237,19 +237,24 @@
                   <i class="devicon-postgresql-plain"></i>
                 </li>
             </ul>
-              <div>
-                <img src="img/expensebook.gif" alt="expensebook-gif"/>
+              <div class="projects-border">
+                <a href="https://gitlab.com/daniel-rotstein/ExpenseBook" target="_blank"><img src="img/expensebook.gif" alt="expensebook-gif"/></a>
               </div>
             </div>
           </div>
+          </br>
+          </br>
           
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3>CarCar</h3>
+              <h3><a href="https://gitlab.com/daniel-rotstein/carcar" target="_blank">CarCar</h3></a>
               <div class="subheading mb-3">Full Stack Web Application
               </div>
-              <p>An automotive dealership management web application that allows users to manage their vehicle inventory, as well as set up maintenance appointments for customers and manage their employees. Written using Django and Python for the back-end, and React, Javascript, Bootstrap/CSS for the fron-end.
+              <p>An automotive dealership application utilizing Django, REST APIs and React to provide the user a friendly and complete way to track inventory, services and sales.
+              Search feature to the service microservice using React Hooks for users to filter past appointments.
+              The latest domain-driven design principles to create microservices running in Docker and polling for live updates.
+              A feature for users to manage appointments by canceling or marking them as completed.
               </p>
               <ul class="list-inline list-icons">
                 <li class="list-inline-item">
@@ -273,21 +278,24 @@
                 <li class="list-inline-item">
                   <i class="devicon-bootstrap-plain-wordmark"></i>
                 </li>
-                
             </ul>
               <div>
                 <a href="https://gitlab.com/daniel-rotstein/carcar" target="_blank"><img src="img/carcar.gif" alt="carcar-gif"/></a>
-                
               </div>
             </div>
           </div>
+          </br>
+          </br>
 
+          
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3><a href="https://gitlab.com/daniel-rotstein/wardrobify" target="_blank" class="mb-0">Wardrobify</h3></a>
+              <h3><a href="https://gitlab.com/daniel-rotstein/my-world" target="_blank" class="mb-0">My World</h3></a>
               <div class="subheading mb-3">Full Stack Web Application
               </div>
-              <p>Wardrobify! has been created for people who have trouble remembering what items they have in their wardrobe. Maintain your closet by adding in your clothing items and keep track of where it's located.
+              <p>My World a full stack hobbies and interests application using Python, Django, SQLite and CSS that provides an intuitive way for users to manage their interests.
+              Dynamic front-end user interface using server side rendering, allowing authenticated users to easily add/remove tasks from their ToDo Lists, including interactive navbar and external links. 
+              User authentication for greater admin role capabilities and security. 
               </p>
               <ul class="list-inline list-icons">
                 <li class="list-inline-item">
@@ -297,28 +305,19 @@
                   <i class="devicon-django-plain"></i>
                 </li>
                 <li class="list-inline-item">
-                  <i class="devicon-javascript-plain"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="devicon-nodejs-plain"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="devicon-react-original-wordmark"></i>
+                  <i class="devicon-html5-plain-wordmark"></i>
                 </li>
                 <li class="list-inline-item">
                   <i class="devicon-css3-plain-wordmark"></i>
                 </li>
               </ul>
-              <div>
-                <img src="img/wardrobify.gif" alt="wardrobify-gif"/>
+              <div class="mb-3">
+                <a href="https://gitlab.com/daniel-rotstein/my-world" target="_blank"><img src="img/myworld.gif" alt="myworld-gif"/></a>
               </div>
             </div>
           </div>
-
-
         </div>
       </section>
-
 
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
